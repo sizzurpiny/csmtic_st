@@ -1,13 +1,16 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link type="text/css" href="{% static 'welcome_stat/css/styles.css' %}" rel = "stylesheet"/>
 </head>
 <body>
 {% block header_site %}
-    <hr>
+    {% for i in menu %}
+        <li>{{ i }}</li>
+    {% endfor %}
 {% endblock %}
-
 {% block content %}
 {% endblock %}
 

@@ -16,5 +16,6 @@ class cosmetics(models.Model):
     def __str__(self):
         return self.title
 
+    # from welcomenstat.models import cosmetics
     # get, filter, exclude, order_by - для БД ORM
     # database.objects.create - сохранение без подтверждения

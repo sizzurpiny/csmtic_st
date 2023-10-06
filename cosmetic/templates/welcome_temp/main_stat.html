@@ -1,9 +1,13 @@
 {% extends 'welcome_temp/base.html' %}
 
 {% block content %}
-{% for i in menu %}
-    <h1> {{ i }} </h1>
-    <br>
-{% endfor %}
-
+    {% for i in posit %}
+    <li>
+        <h1> {{ i.title }} </h1>
+        <h2> {{ i.description }} </h2>
+        <h2> {{ i.seller }} </h2>
+        <h2> {{ i.cost }} </h2>
+    </li>
+        <hr>
+    {% endfor %}
 {% endblock %}

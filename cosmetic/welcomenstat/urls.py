@@ -6,4 +6,5 @@ from welcomenstat import views
 
 urlpatterns = [
     path('', views.main_page),
+    path('address/', views.address),
 ]
