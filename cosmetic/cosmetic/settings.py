@@ -115,8 +115,8 @@ USE_TZ = True
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-STATICFILES_DIRS = []  #для нестандартных путей
+STATIC_ROOT = ''     #os.path.join(BASE_DIR, 'static') ???? <-- not working with
+STATICFILES_DIRS = ('static',)  #для нестандартных путей
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
