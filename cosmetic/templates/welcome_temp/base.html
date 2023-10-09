@@ -4,13 +4,30 @@
 <head>
     <meta charset="UTF-8">
     <link type="text/css" href="{% static 'welcome_stat/css/styles.css' %}" rel = "stylesheet"/>
+
 </head>
-<body>
+<body style='background-color:#E6EDFA'>
+
 {% block header_site %}
-    {% for i in menu %}
-        <li>{{ i }}</li>
-    {% endfor %}
+    <header>
+        <nav>
+            <a class="active"> Адреса </a>
+            <a href="#"> Контакты </a>
+            <a href="#"> Блог </a>
+        </nav>
+            <div class="wrap-logo">
+                <a href="#" class="logo"> Логотип сайта </a>
+            </div>
+        <nav>
+            <a class="active" href="#"> Профиль </a>
+            <a href="#"> Каталог </a>
+            <a href="#"> Корзина </a>
+        </nav>
+    </header>
+
 {% endblock %}
+
+
 {% block content %}
 {% endblock %}
 
