@@ -2,22 +2,27 @@
 
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: Blogger, sans-serif;
 }
+
 
 header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
-  background-color: #FFEB3B;
-  padding: 20px 10px;
-  
+  background-color: #1E90FF;
+  padding: 20px 500px;
 }
 
 .wrap-logo {
   display: flex;
   align-items: center;
+}
+
+.img-logo {
+max-width: 70px;
+max-height: 70px
 
 }
 
@@ -34,11 +39,26 @@ header a.logo {
   font-weight: bold;
 }
 
-header a:hover {
-  background-color: #FBC02D;
+header a:hover
+{
+  background-color: #0081FF;
   color: #212121;
 }
+
 nav {
   display: flex;
   align-items: center;
   }
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #1E90FF;
+  padding: 20px 500px;
+}
+
+.main-win {
+  padding: 20px 400px;
+}
