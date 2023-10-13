@@ -3,6 +3,8 @@
 body {
   margin: 0;
   font-family: Blogger, sans-serif;
+  background-image: url(icon.jpg);
+
 }
 
 
@@ -15,16 +17,6 @@ header {
   padding: 20px 500px;
 }
 
-.wrap-logo {
-  display: flex;
-  align-items: center;
-}
-
-.img-logo {
-max-width: 70px;
-max-height: 70px
-
-}
 
 header a {
   color: #212121;
@@ -53,12 +45,30 @@ nav {
 footer {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-start;
   flex-wrap: wrap;
   background-color: #1E90FF;
   padding: 20px 500px;
 }
+footer a {
+  color: #212121;
+  padding: 12px;
+  text-decoration:none;
+  font-size: 18px;
+  border-radius: 4px;
+}
 
 .main-win {
   padding: 20px 400px;
+}
+
+.wrap-logo {
+  display: flex;
+  align-items: center;
+}
+
+.img-logo {
+max-width: 100px;
+max-height: 100px
+
 }
