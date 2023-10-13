@@ -3,43 +3,48 @@
 body {
   margin: 0;
   font-family: Blogger, sans-serif;
-  background-image: url(icon.jpg);
-
 }
 
 
-header {
+.header {
+  background-image: url(nastol.com_.ua-158771-1024x576.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
   background-color: #1E90FF;
   padding: 20px 500px;
+
 }
 
 
-header a {
-  color: #212121;
+.header a {
+  color: #F3ECFA;
+
+
   padding: 12px;
   text-decoration: none;
   font-size: 18px;
   border-radius: 4px;
 }
 
-header a.logo {
+.header a.logo {
   font-size: 25px;
   font-weight: bold;
 }
 
-header a:hover
+.header a:hover
 {
   background-color: #0081FF;
-  color: #212121;
+  color: #F3ECFA;
 }
 
 nav {
   display: flex;
   align-items: center;
+
   }
 
 footer {
@@ -59,7 +64,14 @@ footer a {
 }
 
 .main-win {
-  padding: 20px 400px;
+  background-image: url(nastol.com_.ua-158771-1024x576.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.flies-main{
+
+
 }
 
 .wrap-logo {
