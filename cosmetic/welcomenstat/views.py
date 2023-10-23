@@ -14,3 +14,5 @@ def main_page(request):
 
 def address(request):
     return render(request, 'welcome_temp/address.html', {'menu': menu})
+
+
