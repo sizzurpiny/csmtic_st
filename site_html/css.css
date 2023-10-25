@@ -5,23 +5,25 @@
 
 body {
   margin: 0px;
-  background-color: #1153FC;
+  background-color: #223856;
   font-family: "Blogger", sans-serif;
 }
 .header {
   justify-content: space-between;
   align-items: center;
-  background-color: #1153FC;
+  background-color: #223856;
   width: 100%;
 
 }
 nav {
   align-items: center;
   display: flex;
-  justify-content:center;
+  justify-content: center;
   flex-direction: row;
-
 }
+.only-header{
+}
+
 .header img {
   width: 35%;
   display: block;
@@ -31,11 +33,11 @@ nav {
 nav a{
   padding: 1rem 1rem;
   margin: 1rem 2rem;
-  background-color: #1153FC;
+  background-color: #223856;
   text-decoration: none;
   color: #fff;
 
-  font-size: 22px;
+  font-size: 18px;
   border-radius: 20px
 }
 nav a:hover{
@@ -46,9 +48,18 @@ nav a:hover{
 }
 
 .div-img-header{
-  background-color: #000;
+  background-color: #304D76;
 }
 
 .main{
   background-color: #fff;
+
+}
+.head-logo{
+  max-width: 200px;
+  max-height: 200px;
+  justify-content: flex-start;
+}
+
+.main-header{
 }
